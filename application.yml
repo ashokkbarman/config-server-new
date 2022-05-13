@@ -1,0 +1,8 @@
+eureka:
+    client:
+    register-with-eureka: true
+    fetch-resigtry: true
+    service-url:
+    defaultZone: http://192.168.240.1:8761/eureka/
+instance:
+    hostname:localhost
